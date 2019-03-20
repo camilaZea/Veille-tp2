@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
- Theme Name:   Twenty nineteen Camila zea
+ Theme Name:   Twenty nineteen TP2 Camila zea
  Theme URI:    http://referenced.ca
  Description:  Twenty nineteen enfant Theme
  Author:       Eddy Martin
@@ -10,7 +10,7 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-nineteen-CamilaZea
+ Text Domain:  twenty-nineteen-TP2-CamilaZea
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -797,6 +797,8 @@ body.page .main-navigation {
 
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#002b4200), to(#002b42));
+  background-image: linear-gradient(#002b4200, #002b42);
 }
 
 .site-header.featured-image .site-branding .site-title {
@@ -825,6 +827,11 @@ body {
 
 .evenements h1 {
   text-align: center;
+}
+
+.nouvelles {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#98a9b3), color-stop(#dedede), to(#778e9b));
+  background-image: linear-gradient(#98a9b3, #dedede, #778e9b);
 }
 
 @-webkit-keyframes anim1 {
@@ -1007,10 +1014,5 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.evenements {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 206, 222, 0)), color-stop(41%, #75bdd1), to(#49a5bf));
-  background: linear-gradient(to bottom, rgba(147, 206, 222, 0) 0%, #75bdd1 41%, #49a5bf 100%);
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 body{
     font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: linear-gradient(#002b4200,#002b42);
 }
 
 .site-header.featured-image .site-branding .site-title {
@@ -31,4 +32,8 @@ body{
 
 .evenements h1{
     text-align: center;
+}
+
+.nouvelles{
+    background-image: linear-gradient(#98a9b3, #dedede, #778e9b);
 }
