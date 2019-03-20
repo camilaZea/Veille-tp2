@@ -779,6 +779,14 @@ body.page .main-navigation {
   font-size: .4em;
 }
 
+.entry-header {
+  text-align: center;
+}
+
+.entry .entry-content > *, .entry .entry-summary > * {
+  max-width: 100%;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
