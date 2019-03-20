@@ -689,6 +689,14 @@ body.page .main-navigation {
 /*--------------------------------------------------------------
 ## cours
 --------------------------------------------------------------*/
+.liste-cours a {
+  color: #ffffff;
+}
+
+.liste-cours a:hover {
+  color: black;
+}
+
 #liste-cours {
   margin-bottom: 0;
 }
@@ -704,27 +712,27 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #1c7742;
+  background-color: #b1bdc7;
   color: #fff;
 }
 
 .liste-cours .session-2 {
-  background-color: #d3a145;
+  background-color: #85a9af;
   color: #aaa;
 }
 
 .liste-cours .session-3 {
-  background-color: #2f2f97;
+  background-color: #636564;
   color: #fff;
 }
 
 .liste-cours .session-4 {
-  background-color: #948b36;
+  background-color: #a7998b;
   color: #fff;
 }
 
 .liste-cours .session-5 {
-  background-color: #97173d;
+  background-color: #a3ccaf;
   color: #fff;
 }
 
@@ -787,8 +795,36 @@ body.page .main-navigation {
   max-width: 100%;
 }
 
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.site-header.featured-image .site-branding .site-title {
+  width: 100% !important;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
+}
+
+.wp-block-media-text__media figcaption a {
+  color: white;
+}
+
+.wp-block-media-text__media figcaption a:hover {
+  color: black;
+}
+
+.has-background {
+  border-left: 1px solid black;
+}
+
+.wp-block-media-text {
+  margin-bottom: 15px;
+}
+
+.evenements h1 {
+  text-align: center;
 }
 
 @-webkit-keyframes anim1 {
@@ -958,5 +994,23 @@ body {
 
 .wp-block-media-text > figure > img, .wp-block-media-text > figure > video {
   border: 2px solid #0073aa;
+}
+
+.nouvelles {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.nouvelles img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.evenements {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(147, 206, 222, 0)), color-stop(41%, #75bdd1), to(#49a5bf));
+  background: linear-gradient(to bottom, rgba(147, 206, 222, 0) 0%, #75bdd1 41%, #49a5bf 100%);
 }
 /*# sourceMappingURL=style.css.map */

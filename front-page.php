@@ -11,9 +11,9 @@
 
 get_header();
 ?>
-//////////////////  front-page.php //////////////
 <section id="primary" class="content-area">
 	<main id="main" class="site-main">
+	
 
 	<?php
 		/* Start the Loop  La première boucle */
@@ -43,7 +43,10 @@ get_header();
 
 <article  class="page type-page status-publish has-post-thumbnail hentry entry">
 	<div class="entry-content">
+		<div class="nouvelles">
+		<h1>Nouvelles</h1>
 		<div class="wp-block-columns has-4-columns">
+		
 		<?php while ( $query->have_posts()) {
 				$query->the_post();
 				$leTitre = 'Nouvelles';
@@ -53,10 +56,12 @@ get_header();
 	}
 ?>
 		</div>	
+	</div>
 
-
+		
 <!--  ////////////////////// La troisième boucle pour les articles de catégorie  événement  -->
-
+<div class="evenements">
+<h1>Événements</h1>
 <?php
 		$args = array( 'post_type' => 'post',
 					   'category_name' => 'evenement',
@@ -77,6 +82,7 @@ get_header();
 	}
 ?>
 	</div>	
+</div>
 </article>	
 <!--  ///////////////////////////////////////////////////////////////////////// -->
 

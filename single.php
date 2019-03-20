@@ -11,7 +11,6 @@
 
 get_header();
 ?>
-//////////////////////// single.php ///////////////////
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -31,7 +30,7 @@ get_header();
 						get_template_part( 'template-parts/content/content', 'single-evenement' );
 						
 					}else{
-						get_template_part( 'template-parts/content/content', 'single' );
+						get_template_part( 'template-parts/content/content', 'single-descriptionCours' );
 						
 					}
 				
