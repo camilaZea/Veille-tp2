@@ -32,6 +32,7 @@
 			<div class="wp-block-media-text__content">
 				<?php
 					the_content();
+					
 				?>
 			</div>
 		</div>
