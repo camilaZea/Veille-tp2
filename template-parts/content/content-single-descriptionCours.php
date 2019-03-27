@@ -49,10 +49,19 @@
 			)
 		);
 		?>
+		<h4>Le professeur qui donne ce cours est :  <?php the_field('professeur'); ?> 
+		</h4>
+
+		<?php 
+			$image = get_field('mon_image');
+			$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+			if( $image ) { 
+				?>
+				<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, $size ); ?></a>
+
 	</div><!-- .entry-content -->
-		<h4>Le professeur qui donne ce cours est :  <?php
-		the_field('professeur'); 
-		?> </h4>
+		
+		
 	<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
