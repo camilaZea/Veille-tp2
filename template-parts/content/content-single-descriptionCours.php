@@ -51,21 +51,27 @@
 		?>
 		<h4>Le professeur(s)  :  <?php the_field('professeur'); ?></h4>
 		
+		
 		<?php
 			
 				
-		if ( in_category('Animation1') ){
-			echo'ani';
-			$image = get_field('img_animation1');
+
+			$image1 = get_field('images_projets');
+			$image2 = get_field('images_projets_2');
+			$image3 = get_field('images_projets_3');
+
+
 			$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
 
 		?>
-
-		<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, $size ); ?></a>	
+		<h4>Projets : </h4>
+		<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image1, $size ); ?></a>	
+		<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image2, $size ); ?></a>	
+		<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image3, $size ); ?></a>	
 		<?php
-	echo'ani';
+
 			
-		}
+
 
 		?>
 		
