@@ -49,16 +49,27 @@
 			)
 		);
 		?>
-		<h4>Le professeur qui donne ce cours est :  <?php the_field('professeur'); ?> 
-		</h4>
-
-		<?php 
-			$image = get_field('mon_image');
+		<h4>Le professeur(s)  :  <?php the_field('professeur'); ?></h4>
+		
+		<?php
+			
+				
+		if ( in_category('Animation1') ){
+			echo'ani';
+			$image = get_field('img_animation1');
 			$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-			if( $image ) { 
-				?>
-				<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, $size ); ?></a>
 
+		?>
+
+		<a href="<?php the_permalink(); ?>"><?php echo wp_get_attachment_image( $image, $size ); ?></a>	
+		<?php
+	echo'ani';
+			
+		}
+
+		?>
+		
+				
 	</div><!-- .entry-content -->
 		
 		
