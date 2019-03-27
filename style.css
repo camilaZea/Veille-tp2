@@ -707,7 +707,7 @@ body.page .main-navigation {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 10px;
-  margin: 2% 2% 0% 15%;
+  margin: 2% 2% 0% 2%;
   font-size: 1.5em;
 }
 
@@ -793,6 +793,10 @@ body.page .main-navigation {
 
 .entry .entry-content > *, .entry .entry-summary > * {
   max-width: 100%;
+}
+
+.entry-footer {
+  display: none !important;
 }
 
 body {

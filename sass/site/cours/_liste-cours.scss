@@ -9,13 +9,14 @@
 
 #liste-cours {
       margin-bottom:0 ;
+
 }
 
 .liste-cours {
     display : grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    margin: 2% 2% 0% 15%;
+    margin: 2% 2% 0% 2%;
     font-size : 1.5em;
   
     .session-1 { background-color: #dadada; color : #fff; }
