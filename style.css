@@ -799,6 +799,10 @@ body.page .main-navigation {
   display: none !important;
 }
 
+.entry-meta {
+  display: none !important;
+}
+
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#002b4200), to(#002b42));
