@@ -805,8 +805,7 @@ body.page .main-navigation {
 
 body {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#002b4200), to(#002b42));
-  background-image: linear-gradient(#002b4200, #002b42);
+  background-color: #cae2ef;
 }
 
 .site-header.featured-image .site-branding .site-title {
@@ -838,8 +837,7 @@ body {
 }
 
 .nouvelles {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#98a9b3), color-stop(#dedede), to(#778e9b));
-  background-image: linear-gradient(#98a9b3, #dedede, #778e9b);
+  background-color: #afc2cc;
 }
 
 @-webkit-keyframes anim1 {
